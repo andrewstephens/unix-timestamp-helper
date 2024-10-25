@@ -1,8 +1,3 @@
-# React + Vite
+# Unix Timestamp Helper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a simple little React app that can show you the current time as a Unix Timestamp and also let you make adjustments to that timestamp by adding or subtracting minutes, hours, days, or weeks. Finally, it does have a toggle for Timestamps in seconds or milliseconds.
