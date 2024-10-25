@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+  }
+
+  [data-theme="dark"] {
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 0 0% 100%;
+  }
+}
+
+@layer utilities {
+  .bg-card {
+    background-color: hsl(var(--card));
+  }
+  
+  .text-card-foreground {
+    color: hsl(var(--card-foreground));
+  }
+}
+
+body {
+  background: lightblue
+}
